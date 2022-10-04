@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+    <div class="contenedor">
+        <form action="">
+            <div class="textos">
+                <div class="buscarNombre">
+                    <label for="Nombre">Nombre:</label>
+                    <input type="text" id="Nombre" placeholder="Digita el nombre">
+                </div>
+                <div class="buscarPropiedades">
+                    <select name="" id="propiedades">
+                        <option value="0">Seleccione una propiedad</option>
+                        <option value="1">Apellido</option>
+                        <option value="2">Numero</option>
+                        <option value="3">Gustos</option>
+                        <option value="4">Todos</option>
+                    </select>
+                </div>
+                <div class="btn">
+                    <button type="button" id="buscar" class="buscar">Buscar</button>
+                </div>
+                <div class="Resultado">
+                    <input type="text" id="Resultado">
+                </div>
+            </div>
+        </form>
+        <div class="imagene">
+            <img src="./personaIncognita.webp" alt="">
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
